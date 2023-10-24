@@ -1,0 +1,4088 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.reiter.at/ontology/generated#"
+     xml:base="http://www.reiter.at/ontology/generated"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.reiter.at/ontology/generated"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ResolveNamingIssuexmlnsbizagi -->
+
+    <owl:AnnotationProperty rdf:about="ResolveNamingIssuexmlnsbizagi"/>
+    
+
+
+    <!-- ResolveNamingIssuexmlnsxsd -->
+
+    <owl:AnnotationProperty rdf:about="ResolveNamingIssuexmlnsxsd"/>
+    
+
+
+    <!-- ResolveNamingIssuexmlnsxsi -->
+
+    <owl:AnnotationProperty rdf:about="ResolveNamingIssuexmlnsxsi"/>
+    
+
+
+    <!-- bpmnElement -->
+
+    <owl:AnnotationProperty rdf:about="bpmnElement"/>
+    
+
+
+    <!-- dataStoreRef -->
+
+    <owl:AnnotationProperty rdf:about="dataStoreRef"/>
+    
+
+
+    <!-- gatewayDirection -->
+
+    <owl:AnnotationProperty rdf:about="gatewayDirection"/>
+    
+
+
+    <!-- height -->
+
+    <owl:AnnotationProperty rdf:about="height"/>
+    
+
+
+    <!-- id -->
+
+    <owl:AnnotationProperty rdf:about="id"/>
+    
+
+
+    <!-- isHorizontal -->
+
+    <owl:AnnotationProperty rdf:about="isHorizontal"/>
+    
+
+
+    <!-- labelStyle -->
+
+    <owl:AnnotationProperty rdf:about="labelStyle"/>
+    
+
+
+    <!-- name -->
+
+    <owl:AnnotationProperty rdf:about="name"/>
+    
+
+
+    <!-- processRef -->
+
+    <owl:AnnotationProperty rdf:about="processRef"/>
+    
+
+
+    <!-- sourceRef -->
+
+    <owl:AnnotationProperty rdf:about="sourceRef"/>
+    
+
+
+    <!-- targetNamespace -->
+
+    <owl:AnnotationProperty rdf:about="targetNamespace"/>
+    
+
+
+    <!-- targetRef -->
+
+    <owl:AnnotationProperty rdf:about="targetRef"/>
+    
+
+
+    <!-- textValue -->
+
+    <owl:AnnotationProperty rdf:about="textValue"/>
+    
+
+
+    <!-- value -->
+
+    <owl:AnnotationProperty rdf:about="value"/>
+    
+
+
+    <!-- width -->
+
+    <owl:AnnotationProperty rdf:about="width"/>
+    
+
+
+    <!-- x -->
+
+    <owl:AnnotationProperty rdf:about="x"/>
+    
+
+
+    <!-- xmlns -->
+
+    <owl:AnnotationProperty rdf:about="xmlns"/>
+    
+
+
+    <!-- y -->
+
+    <owl:AnnotationProperty rdf:about="y"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#bpmnElement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#bpmnElement"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#dataStoreRef -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#dataStoreRef"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#gatewayDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#gatewayDirection"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#height"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#id"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#isBold -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#isBold"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#isHorizontal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#isHorizontal"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#isItalic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#isItalic"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#isStrikeThrough -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#isStrikeThrough"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#isUnderline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#isUnderline"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#labelStyle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#labelStyle"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#name"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#processRef -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#processRef"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#size"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#sourceRef -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#sourceRef"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#targetNamespace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#targetNamespace"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#targetRef -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#targetRef"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#value"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#width"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#x"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#xmlns -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#xmlns"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#y"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#xmlns:bizagi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#xmlns:bizagi"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#xmlns:xsd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#xmlns:xsd"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#xmlns:xsi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.reiter.at/ontology/generated#xmlns:xsi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#collaboration -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#definitions"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#dataState -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#dataState">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#dataStore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#dataStore -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#dataStore">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#definitions"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#dataStoreReference -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#dataStoreReference">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#dataStoreRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#definitions -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#definitions">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#document"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#targetNamespace"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#xmlns"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#xmlns:xsd"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#xmlns:xsi"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#document -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#document"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#documentation -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#documentation">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#collaboration"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#endEvent"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#messageFlow"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#participant"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#endEvent -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#endEvent">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#exclusiveGateway -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#exclusiveGateway">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#gatewayDirection"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#incoming -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#incoming">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#endEvent"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#parallelGateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#laneSet -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#laneSet">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#messageFlow -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#messageFlow">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#collaboration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#sourceRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#targetRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#outgoing -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#outgoing">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#parallelGateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#startEvent"/>
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#parallelGateway -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#parallelGateway">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#gatewayDirection"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#participant -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#participant">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#collaboration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#processRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#process -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#process">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#definitions"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#sequenceFlow -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#sequenceFlow">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#sourceRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#targetRef"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#startEvent -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#startEvent">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated#task -->
+
+    <owl:Class rdf:about="http://www.reiter.at/ontology/generated#task">
+        <rdfs:subClassOf rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.reiter.at/ontology/generated#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNDiagram_IC291-belongsTo-definitions_IC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNDiagram_IC291-belongsTo-definitions_IC1">
+        <id>Diagram_d655dbea-49d8-47a7-b9f9-43a03b8a61fc</id>
+        <name></name>
+        <xmlns>http://www.omg.org/spec/BPMN/20100524/DI</xmlns>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC318-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC318-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_545b00f7-fa5f-4962-9c0a-9e91915a7270</bpmnElement>
+        <id>DiagramElement_c499fc12-df7e-408a-819e-fd0bdbdf53cc</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC331-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC331-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_95109d88-1e34-4710-8761-024887ef90b2</bpmnElement>
+        <id>DiagramElement_5cf80226-3e88-49e0-b7de-65537b0fcad6</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC341-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC341-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_421bb2b8-2afb-4399-9388-52853c04d63b</bpmnElement>
+        <id>DiagramElement_11bf0489-29d0-41dd-9f25-4d4586bc3b6f</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC355-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC355-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_319b82e4-420d-462a-8625-e366003447f0</bpmnElement>
+        <id>DiagramElement_a60d0d85-74df-4f56-9e6a-8460806c2a3d</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC365-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC365-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_ddd19f55-b34b-4cbd-b774-d5d4cb9a7233</bpmnElement>
+        <id>DiagramElement_b52a88f0-7f06-4924-bc82-959cbf45aef4</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC369-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC369-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_cdc5eaa0-026a-457d-97c9-5a86a1b7a3b7</bpmnElement>
+        <id>DiagramElement_57ffad3e-f9b7-4157-a1c5-83e0b3ce26bf</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC377-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC377-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_142905d7-c5b9-40a3-834e-f9cf74057f89</bpmnElement>
+        <id>DiagramElement_e2801129-c1a0-4231-ab6f-242739d05012</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC393-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC393-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_91d4c273-2f63-466f-bd81-512ed53c1674</bpmnElement>
+        <id>DiagramElement_7a5f62f0-f46b-4631-883f-1dd386f00d12</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC404-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC404-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_49651586-9e2f-4f80-b5e3-fcbc611040f5</bpmnElement>
+        <id>DiagramElement_ec550bef-f0e7-40a9-9960-798e76e8edce</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC411-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC411-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_3c1f3721-faee-47e8-be10-74014dcf37cd</bpmnElement>
+        <id>DiagramElement_f31a8612-03df-4af4-a8de-072d6831b5ea</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC415-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC415-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_13d1390f-95c6-420d-addf-06710802b496</bpmnElement>
+        <id>DiagramElement_72686835-88c4-4b07-a6f8-c08b60dd70ca</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC429-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC429-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_8bc26623-89eb-4ecd-ba73-f49788a3b41c</bpmnElement>
+        <id>DiagramElement_e3b106cf-25a9-406f-8d92-421215ac88ce</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC436-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC436-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_b5747a36-3f29-4dd1-905d-895e951811a9</bpmnElement>
+        <id>DiagramElement_6b8baad2-621e-4a33-85e1-619ec919eada</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC444-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC444-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_2e0eac7c-712c-4feb-b570-396153fc7f0f</bpmnElement>
+        <id>DiagramElement_820c1e4c-5026-47f7-9a47-225a86554bd3</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNEdge_IC452-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNEdge_IC452-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_9b50c07c-f10b-4ce3-ac25-a3a039967b19</bpmnElement>
+        <id>DiagramElement_2c80d115-b5a3-412d-8381-b6a072cf8965</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC459-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC459-belongsTo-BPMNDiagram_IC291">
+        <id>Style_1185fe3b-54e5-43c2-a611-ec5d0c8ce88c</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC461-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC461-belongsTo-BPMNDiagram_IC291">
+        <id>Style_df737d0d-03d2-4431-897a-3f315acaabf7</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC463-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC463-belongsTo-BPMNDiagram_IC291">
+        <id>Style_6c67212c-fc02-4466-9d82-2fe823007b7f</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC465-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC465-belongsTo-BPMNDiagram_IC291">
+        <id>Style_85b06f7a-531e-4f8a-8bb5-cad0df18ac32</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC467-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC467-belongsTo-BPMNDiagram_IC291">
+        <id>Style_e7831277-ccde-436b-a8bc-81cd7677790b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC469-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC469-belongsTo-BPMNDiagram_IC291">
+        <id>Style_35cd65dc-8b69-4b42-bfda-c62485d07cf1</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC471-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC471-belongsTo-BPMNDiagram_IC291">
+        <id>Style_b11cffce-df36-4bdb-8657-4b7c9ef70c5c</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC473-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC473-belongsTo-BPMNDiagram_IC291">
+        <id>Style_7249678a-9137-4995-98af-a33869edc98b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC475-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC475-belongsTo-BPMNDiagram_IC291">
+        <id>Style_0b23e8f5-00a0-47a2-a94d-6f9ef52588ad</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC477-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC477-belongsTo-BPMNDiagram_IC291">
+        <id>Style_fc47ea0a-d4f0-42ea-8265-c5cab86cc734</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC479-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC479-belongsTo-BPMNDiagram_IC291">
+        <id>Style_97d90c00-cf4e-4471-9c40-0473e787da46</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC481-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC481-belongsTo-BPMNDiagram_IC291">
+        <id>Style_264b726a-fa8a-4eed-b2bb-22bb45b508e5</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC483-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC483-belongsTo-BPMNDiagram_IC291">
+        <id>Style_3be9a517-7768-4265-bb9c-bb0fc84f3a8b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC485-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC485-belongsTo-BPMNDiagram_IC291">
+        <id>Style_f16aeda5-3dae-46f8-961e-6788b9b58386</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC487-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC487-belongsTo-BPMNDiagram_IC291">
+        <id>Style_0e9e36a6-77e3-4ab9-a09f-694f9b4ea06e</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC489-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC489-belongsTo-BPMNDiagram_IC291">
+        <id>Style_0851ae51-59ef-4b97-8279-244f98e9d89d</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC491-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC491-belongsTo-BPMNDiagram_IC291">
+        <id>Style_9a152053-43b5-41a3-b79f-23dd2bd000df</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC493-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC493-belongsTo-BPMNDiagram_IC291">
+        <id>Style_8940a6d2-6346-4cf3-a864-9ae27bd733b9</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC495-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabelStyle_IC495-belongsTo-BPMNDiagram_IC291">
+        <id>Style_8e219ee3-fc60-4db0-85ca-018936954b9b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC297-belongsTo-BPMNShape_IC294 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC297-belongsTo-BPMNShape_IC294">
+        <id>DiagramElement_3b490262-26a5-4332-b90f-d5a98ff55e2a</id>
+        <labelStyle>Style_1185fe3b-54e5-43c2-a611-ec5d0c8ce88c</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC303-belongsTo-BPMNShape_IC300 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC303-belongsTo-BPMNShape_IC300">
+        <id>DiagramElement_e4c8c301-c143-4d32-965a-d9eab3491937</id>
+        <labelStyle>Style_df737d0d-03d2-4431-897a-3f315acaabf7</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC309-belongsTo-BPMNShape_IC306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC309-belongsTo-BPMNShape_IC306">
+        <id>DiagramElement_3a01acb7-4efc-41b7-9752-1aa46720749f</id>
+        <labelStyle>Style_6c67212c-fc02-4466-9d82-2fe823007b7f</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC315-belongsTo-BPMNShape_IC312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC315-belongsTo-BPMNShape_IC312">
+        <id>DiagramElement_0618cf99-1d3e-4fb4-b611-d5be5a4b5258</id>
+        <labelStyle>Style_85b06f7a-531e-4f8a-8bb5-cad0df18ac32</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC325-belongsTo-BPMNShape_IC322 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC325-belongsTo-BPMNShape_IC322">
+        <id>DiagramElement_16fc048f-6c72-43f4-8e31-2fc7c67e8ac0</id>
+        <labelStyle>Style_e7831277-ccde-436b-a8bc-81cd7677790b</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC338-belongsTo-BPMNShape_IC335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC338-belongsTo-BPMNShape_IC335">
+        <id>DiagramElement_d139d641-c9a2-47ef-9edc-109b86fc63d0</id>
+        <labelStyle>Style_35cd65dc-8b69-4b42-bfda-c62485d07cf1</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC346-belongsTo-BPMNEdge_IC341 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC346-belongsTo-BPMNEdge_IC341">
+        <id>DiagramElement_7d59f965-5744-481a-83fb-6761dc73bc1d</id>
+        <labelStyle>Style_b11cffce-df36-4bdb-8657-4b7c9ef70c5c</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC352-belongsTo-BPMNShape_IC349 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC352-belongsTo-BPMNShape_IC349">
+        <id>DiagramElement_e1cf7d9b-02f3-41b7-8412-cd70c5431029</id>
+        <labelStyle>Style_7249678a-9137-4995-98af-a33869edc98b</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC359-belongsTo-BPMNEdge_IC355 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC359-belongsTo-BPMNEdge_IC355">
+        <id>DiagramElement_223d1c17-7d07-4b15-bcb7-abb0b14816c3</id>
+        <labelStyle>Style_0b23e8f5-00a0-47a2-a94d-6f9ef52588ad</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC374-belongsTo-BPMNEdge_IC369 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC374-belongsTo-BPMNEdge_IC369">
+        <id>DiagramElement_8d600eea-8860-4315-8041-5b211676d4e3</id>
+        <labelStyle>Style_fc47ea0a-d4f0-42ea-8265-c5cab86cc734</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC381-belongsTo-BPMNEdge_IC377 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC381-belongsTo-BPMNEdge_IC377">
+        <id>DiagramElement_c63d1a3d-4655-4000-98c9-30ca675de7b4</id>
+        <labelStyle>Style_97d90c00-cf4e-4471-9c40-0473e787da46</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC390-belongsTo-BPMNShape_IC387 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC390-belongsTo-BPMNShape_IC387">
+        <id>DiagramElement_77573e90-55a4-4e19-b135-b81f8972d46b</id>
+        <labelStyle>Style_264b726a-fa8a-4eed-b2bb-22bb45b508e5</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC401-belongsTo-BPMNShape_IC398 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC401-belongsTo-BPMNShape_IC398">
+        <id>DiagramElement_a68e3360-4ad9-4afe-ac06-fdc93be55892</id>
+        <labelStyle>Style_3be9a517-7768-4265-bb9c-bb0fc84f3a8b</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC420-belongsTo-BPMNEdge_IC415 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC420-belongsTo-BPMNEdge_IC415">
+        <id>DiagramElement_00290c87-0231-4ecd-b75f-85736913c932</id>
+        <labelStyle>Style_f16aeda5-3dae-46f8-961e-6788b9b58386</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC426-belongsTo-BPMNShape_IC423 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC426-belongsTo-BPMNShape_IC423">
+        <id>DiagramElement_de33fa45-a72a-4005-8e56-b064742835bf</id>
+        <labelStyle>Style_0e9e36a6-77e3-4ab9-a09f-694f9b4ea06e</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC433-belongsTo-BPMNEdge_IC429 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC433-belongsTo-BPMNEdge_IC429">
+        <id>DiagramElement_ab822239-3234-4fce-b5c6-8c39e4c0e5c1</id>
+        <labelStyle>Style_0851ae51-59ef-4b97-8279-244f98e9d89d</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC441-belongsTo-BPMNEdge_IC436 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC441-belongsTo-BPMNEdge_IC436">
+        <id>DiagramElement_0f2d75e7-b561-4d70-9dda-fa33069e647d</id>
+        <labelStyle>Style_9a152053-43b5-41a3-b79f-23dd2bd000df</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC449-belongsTo-BPMNEdge_IC444 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC449-belongsTo-BPMNEdge_IC444">
+        <id>DiagramElement_855426ae-2e89-4ad2-aae5-42d49d4929ef</id>
+        <labelStyle>Style_8940a6d2-6346-4cf3-a864-9ae27bd733b9</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNLabel_IC456-belongsTo-BPMNEdge_IC452 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNLabel_IC456-belongsTo-BPMNEdge_IC452">
+        <id>DiagramElement_d0023b59-6d98-4ee5-9e66-79d33c1bec60</id>
+        <labelStyle>Style_8e219ee3-fc60-4db0-85ca-018936954b9b</labelStyle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNPlane_IC292-belongsTo-BPMNDiagram_IC291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNPlane_IC292-belongsTo-BPMNDiagram_IC291">
+        <bpmnElement>Id_ad25f4e6-929a-4c0f-8bd2-2683c910eed6</bpmnElement>
+        <id>DiagramElement_cef4b64f-def7-47ae-87fc-a854294edb2e</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC294-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC294-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_0a829e91-60c5-4d08-a184-4e6f81ffe9d1</bpmnElement>
+        <id>DiagramElement_dbafaa15-1248-4813-b5b9-94d85b24d4e6</id>
+        <isHorizontal>true</isHorizontal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC300-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC300-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_f9d79024-0bfc-45d9-871f-e38195230320</bpmnElement>
+        <id>DiagramElement_3ea31381-4b74-4b05-aae9-c8b89db68423</id>
+        <isHorizontal>true</isHorizontal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC306-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC306-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_d26639b6-4581-4e2b-80d1-fe6743e528dc</bpmnElement>
+        <id>DiagramElement_b0664b58-dd8c-4bfe-9e90-dc8ecf6f62e9</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC312-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC312-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_727ce780-abbf-43cf-9d5a-bc0877f48a9f</bpmnElement>
+        <id>DiagramElement_1bc318c6-b4cb-461a-bea1-9d235e9d38c0</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC322-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC322-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_a7058c50-1b2b-4f31-8951-0bc726432c40</bpmnElement>
+        <id>DiagramElement_9297fbc6-632c-4fb3-a701-7ec98001e985</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC328-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC328-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_5837e51b-95fc-44e7-8ba0-9b4556c6a6a4</bpmnElement>
+        <id>DiagramElement_1dbe6f4a-38a9-4609-8edb-bf7a76274960</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC335-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC335-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_57aef314-2031-4815-a129-67f807c0f629</bpmnElement>
+        <id>DiagramElement_f1e9edbf-7e06-4845-bf1e-dc0e7f0c117b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC349-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC349-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_c51c1269-163c-43e2-9479-5ec655f8ef64</bpmnElement>
+        <id>DiagramElement_d41e1897-0e46-4807-bd7d-4ba26feb121f</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC362-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC362-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_b40d68f8-b6b8-4630-a126-d223f10787cc</bpmnElement>
+        <id>DiagramElement_2e1f1194-3388-4b57-8b97-d080d423370f</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC384-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC384-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_de2042a7-2311-4480-8c81-ee60bd749017</bpmnElement>
+        <id>DiagramElement_fac397ae-d9e8-4c25-a78d-1d19c57ba21e</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC387-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC387-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_521a1429-8e97-4344-bce8-a12ee476dd3b</bpmnElement>
+        <id>DiagramElement_51620ce2-0d8b-435e-b7af-90154e11c4b0</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC398-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC398-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_c9386052-ef56-468e-b9dc-73d36b6c5771</bpmnElement>
+        <id>DiagramElement_62911759-7d6b-4326-bd0b-f0d90b91d47b</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC408-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC408-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_8bf7e0d1-91e3-45f5-b68d-433688a72d6c</bpmnElement>
+        <id>DiagramElement_3a5a10a9-07c8-4c0e-bb60-be7a372b7a46</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/BPMNShape_IC423-belongsTo-BPMNPlane_IC292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/BPMNShape_IC423-belongsTo-BPMNPlane_IC292">
+        <bpmnElement>Id_72a30657-be43-47de-bf85-59369272cfe0</bpmnElement>
+        <id>DiagramElement_5da426ad-abff-4a2f-bbd0-187c5afea8bd</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC296-belongsTo-BPMNShape_IC294 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC296-belongsTo-BPMNShape_IC294">
+        <height>350</height>
+        <width>700</width>
+        <x>30</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>30</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC299-belongsTo-BPMNLabel_IC297 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC299-belongsTo-BPMNLabel_IC297">
+        <height>0</height>
+        <width>0</width>
+        <x>0</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>0</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC302-belongsTo-BPMNShape_IC300 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC302-belongsTo-BPMNShape_IC300">
+        <height>350</height>
+        <width>1062</width>
+        <x>34</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>985</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC305-belongsTo-BPMNLabel_IC303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC305-belongsTo-BPMNLabel_IC303">
+        <height>350</height>
+        <width>700</width>
+        <x>34</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>985</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC308-belongsTo-BPMNShape_IC306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC308-belongsTo-BPMNShape_IC306">
+        <height>30</height>
+        <width>30</width>
+        <x>107</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1155</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC311-belongsTo-BPMNLabel_IC309 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC311-belongsTo-BPMNLabel_IC309">
+        <height>30</height>
+        <width>90</width>
+        <x>77</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1193</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC314-belongsTo-BPMNShape_IC312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC314-belongsTo-BPMNShape_IC312">
+        <height>105</height>
+        <width>100</width>
+        <x>217</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1117</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC317-belongsTo-BPMNLabel_IC315 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC317-belongsTo-BPMNLabel_IC315">
+        <height>105</height>
+        <width>100</width>
+        <x>0</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>0</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC324-belongsTo-BPMNShape_IC322 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC324-belongsTo-BPMNShape_IC322">
+        <height>50</height>
+        <width>50</width>
+        <x>365</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1001</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC327-belongsTo-BPMNLabel_IC325 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC327-belongsTo-BPMNLabel_IC325">
+        <height>53</height>
+        <width>119</width>
+        <x>330</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1059</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC330-belongsTo-BPMNShape_IC328 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC330-belongsTo-BPMNShape_IC328">
+        <height>40</height>
+        <width>40</width>
+        <x>367</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1150</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC337-belongsTo-BPMNShape_IC335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC337-belongsTo-BPMNShape_IC335">
+        <height>30</height>
+        <width>30</width>
+        <x>997</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1257</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC340-belongsTo-BPMNLabel_IC338 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC340-belongsTo-BPMNLabel_IC338">
+        <height>79</height>
+        <width>131</width>
+        <x>975</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1286</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC348-belongsTo-BPMNLabel_IC346 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC348-belongsTo-BPMNLabel_IC346">
+        <height>66</height>
+        <width>102</width>
+        <x>289</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1234</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC351-belongsTo-BPMNShape_IC349 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC351-belongsTo-BPMNShape_IC349">
+        <height>118</height>
+        <width>96</width>
+        <x>447</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1111</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC354-belongsTo-BPMNLabel_IC352 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC354-belongsTo-BPMNLabel_IC352">
+        <height>118</height>
+        <width>96</width>
+        <x>0</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>0</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC361-belongsTo-BPMNLabel_IC359 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC361-belongsTo-BPMNLabel_IC359">
+        <height>63</height>
+        <width>90</width>
+        <x>361</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1101</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC364-belongsTo-BPMNShape_IC362 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC364-belongsTo-BPMNShape_IC362">
+        <height>40</height>
+        <width>40</width>
+        <x>593</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1150</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC376-belongsTo-BPMNLabel_IC374 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC376-belongsTo-BPMNLabel_IC374">
+        <height>66</height>
+        <width>114</width>
+        <x>505</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1231</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC383-belongsTo-BPMNLabel_IC381 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC383-belongsTo-BPMNLabel_IC381">
+        <height>53</height>
+        <width>89</width>
+        <x>614</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1131</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC386-belongsTo-BPMNShape_IC384 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC386-belongsTo-BPMNShape_IC384">
+        <height>40</height>
+        <width>40</width>
+        <x>683</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1150</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC389-belongsTo-BPMNShape_IC387 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC389-belongsTo-BPMNShape_IC387">
+        <height>60</height>
+        <width>90</width>
+        <x>772</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1009</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC392-belongsTo-BPMNLabel_IC390 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC392-belongsTo-BPMNLabel_IC390">
+        <height>60</height>
+        <width>90</width>
+        <x>0</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>0</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC400-belongsTo-BPMNShape_IC398 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC400-belongsTo-BPMNShape_IC398">
+        <height>79</height>
+        <width>122</width>
+        <x>756</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1130</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC403-belongsTo-BPMNLabel_IC401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC403-belongsTo-BPMNLabel_IC401">
+        <height>79</height>
+        <width>122</width>
+        <x>0</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>0</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC410-belongsTo-BPMNShape_IC408 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC410-belongsTo-BPMNShape_IC408">
+        <height>40</height>
+        <width>40</width>
+        <x>912</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1150</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC422-belongsTo-BPMNLabel_IC420 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC422-belongsTo-BPMNLabel_IC420">
+        <height>79</height>
+        <width>110</width>
+        <x>830</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1218</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC425-belongsTo-BPMNShape_IC423 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC425-belongsTo-BPMNShape_IC423">
+        <height>30</height>
+        <width>30</width>
+        <x>1010</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1155</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC428-belongsTo-BPMNLabel_IC426 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC428-belongsTo-BPMNLabel_IC426">
+        <height>79</height>
+        <width>114</width>
+        <x>985</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1184</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC435-belongsTo-BPMNLabel_IC433 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC435-belongsTo-BPMNLabel_IC433">
+        <height>79</height>
+        <width>110</width>
+        <x>912</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1113</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC443-belongsTo-BPMNLabel_IC441 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC443-belongsTo-BPMNLabel_IC441">
+        <height>66</height>
+        <width>114</width>
+        <x>247</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1071</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC451-belongsTo-BPMNLabel_IC449 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC451-belongsTo-BPMNLabel_IC449">
+        <height>66</height>
+        <width>113</width>
+        <x>495.5</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1015</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/Bounds_IC458-belongsTo-BPMNLabel_IC456 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/Bounds_IC458-belongsTo-BPMNLabel_IC456">
+        <height>51</height>
+        <width>90</width>
+        <x>804</x>
+        <xmlns>http://www.omg.org/spec/DD/20100524/DC</xmlns>
+        <y>1077</y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC109-belongsTo-extensionElements_IC108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC109-belongsTo-extensionElements_IC108">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC11-belongsTo-extensionElements_IC10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC11-belongsTo-extensionElements_IC10">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC119-belongsTo-extensionElements_IC118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC119-belongsTo-extensionElements_IC118">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC131-belongsTo-extensionElements_IC130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC131-belongsTo-extensionElements_IC130">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC141-belongsTo-extensionElements_IC140 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC141-belongsTo-extensionElements_IC140">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC151-belongsTo-extensionElements_IC150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC151-belongsTo-extensionElements_IC150">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC160-belongsTo-extensionElements_IC159 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC160-belongsTo-extensionElements_IC159">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC173-belongsTo-extensionElements_IC172 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC173-belongsTo-extensionElements_IC172">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC183-belongsTo-extensionElements_IC182 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC183-belongsTo-extensionElements_IC182">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC193-belongsTo-extensionElements_IC192 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC193-belongsTo-extensionElements_IC192">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC204-belongsTo-extensionElements_IC203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC204-belongsTo-extensionElements_IC203">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC214-belongsTo-extensionElements_IC213 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC214-belongsTo-extensionElements_IC213">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC226-belongsTo-extensionElements_IC225 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC226-belongsTo-extensionElements_IC225">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC23-belongsTo-extensionElements_IC22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC23-belongsTo-extensionElements_IC22">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC236-belongsTo-extensionElements_IC235 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC236-belongsTo-extensionElements_IC235">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC245-belongsTo-extensionElements_IC244 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC245-belongsTo-extensionElements_IC244">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC256-belongsTo-extensionElements_IC255 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC256-belongsTo-extensionElements_IC255">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC268-belongsTo-extensionElements_IC267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC268-belongsTo-extensionElements_IC267">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC278-belongsTo-extensionElements_IC277 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC278-belongsTo-extensionElements_IC277">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC34-belongsTo-extensionElements_IC33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC34-belongsTo-extensionElements_IC33">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC43-belongsTo-extensionElements_IC42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC43-belongsTo-extensionElements_IC42">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC53-belongsTo-extensionElements_IC52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC53-belongsTo-extensionElements_IC52">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC65-belongsTo-extensionElements_IC64 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC65-belongsTo-extensionElements_IC64">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC75-belongsTo-extensionElements_IC74 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC75-belongsTo-extensionElements_IC74">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC88-belongsTo-extensionElements_IC87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC88-belongsTo-extensionElements_IC87">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC97-belongsTo-extensionElements_IC96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiExtensions_IC97-belongsTo-extensionElements_IC96">
+        <ResolveNamingIssuexmlnsbizagi>http://www.bizagi.com/bpmn20</ResolveNamingIssuexmlnsbizagi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC110-belongsTo-bizagi_BizagiExtensions_IC109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC110-belongsTo-bizagi_BizagiExtensions_IC109"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC12-belongsTo-bizagi_BizagiExtensions_IC11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC12-belongsTo-bizagi_BizagiExtensions_IC11"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC120-belongsTo-bizagi_BizagiExtensions_IC119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC120-belongsTo-bizagi_BizagiExtensions_IC119"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC132-belongsTo-bizagi_BizagiExtensions_IC131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC132-belongsTo-bizagi_BizagiExtensions_IC131"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC142-belongsTo-bizagi_BizagiExtensions_IC141 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC142-belongsTo-bizagi_BizagiExtensions_IC141"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC152-belongsTo-bizagi_BizagiExtensions_IC151 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC152-belongsTo-bizagi_BizagiExtensions_IC151"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC161-belongsTo-bizagi_BizagiExtensions_IC160 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC161-belongsTo-bizagi_BizagiExtensions_IC160"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC174-belongsTo-bizagi_BizagiExtensions_IC173 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC174-belongsTo-bizagi_BizagiExtensions_IC173"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC184-belongsTo-bizagi_BizagiExtensions_IC183 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC184-belongsTo-bizagi_BizagiExtensions_IC183"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC194-belongsTo-bizagi_BizagiExtensions_IC193 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC194-belongsTo-bizagi_BizagiExtensions_IC193"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC205-belongsTo-bizagi_BizagiExtensions_IC204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC205-belongsTo-bizagi_BizagiExtensions_IC204"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC215-belongsTo-bizagi_BizagiExtensions_IC214 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC215-belongsTo-bizagi_BizagiExtensions_IC214"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC227-belongsTo-bizagi_BizagiExtensions_IC226 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC227-belongsTo-bizagi_BizagiExtensions_IC226"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC237-belongsTo-bizagi_BizagiExtensions_IC236 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC237-belongsTo-bizagi_BizagiExtensions_IC236"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC24-belongsTo-bizagi_BizagiExtensions_IC23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC24-belongsTo-bizagi_BizagiExtensions_IC23"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC246-belongsTo-bizagi_BizagiExtensions_IC245 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC246-belongsTo-bizagi_BizagiExtensions_IC245"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC257-belongsTo-bizagi_BizagiExtensions_IC256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC257-belongsTo-bizagi_BizagiExtensions_IC256"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC269-belongsTo-bizagi_BizagiExtensions_IC268 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC269-belongsTo-bizagi_BizagiExtensions_IC268"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC279-belongsTo-bizagi_BizagiExtensions_IC278 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC279-belongsTo-bizagi_BizagiExtensions_IC278"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC35-belongsTo-bizagi_BizagiExtensions_IC34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC35-belongsTo-bizagi_BizagiExtensions_IC34"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC44-belongsTo-bizagi_BizagiExtensions_IC43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC44-belongsTo-bizagi_BizagiExtensions_IC43"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC54-belongsTo-bizagi_BizagiExtensions_IC53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC54-belongsTo-bizagi_BizagiExtensions_IC53"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC66-belongsTo-bizagi_BizagiExtensions_IC65 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC66-belongsTo-bizagi_BizagiExtensions_IC65"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC76-belongsTo-bizagi_BizagiExtensions_IC75 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC76-belongsTo-bizagi_BizagiExtensions_IC75"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC89-belongsTo-bizagi_BizagiExtensions_IC88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC89-belongsTo-bizagi_BizagiExtensions_IC88"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC98-belongsTo-bizagi_BizagiExtensions_IC97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperties_IC98-belongsTo-bizagi_BizagiExtensions_IC97"/>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC100-belongsTo-bizagi_BizagiProperties_IC98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC100-belongsTo-bizagi_BizagiProperties_IC98">
+        <name>borderColor</name>
+        <value>#03689A</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC101-belongsTo-bizagi_BizagiProperties_IC98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC101-belongsTo-bizagi_BizagiProperties_IC98">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC102-belongsTo-bizagi_BizagiProperties_IC98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC102-belongsTo-bizagi_BizagiProperties_IC98">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC103-belongsTo-bizagi_BizagiProperties_IC98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC103-belongsTo-bizagi_BizagiProperties_IC98">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC111-belongsTo-bizagi_BizagiProperties_IC110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC111-belongsTo-bizagi_BizagiProperties_IC110">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC112-belongsTo-bizagi_BizagiProperties_IC110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC112-belongsTo-bizagi_BizagiProperties_IC110">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC113-belongsTo-bizagi_BizagiProperties_IC110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC113-belongsTo-bizagi_BizagiProperties_IC110">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC114-belongsTo-bizagi_BizagiProperties_IC110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC114-belongsTo-bizagi_BizagiProperties_IC110">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC115-belongsTo-bizagi_BizagiProperties_IC110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC115-belongsTo-bizagi_BizagiProperties_IC110">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC121-belongsTo-bizagi_BizagiProperties_IC120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC121-belongsTo-bizagi_BizagiProperties_IC120">
+        <name>bgColor</name>
+        <value>#FFFFCC</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC122-belongsTo-bizagi_BizagiProperties_IC120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC122-belongsTo-bizagi_BizagiProperties_IC120">
+        <name>borderColor</name>
+        <value>#A6A61D</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC123-belongsTo-bizagi_BizagiProperties_IC120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC123-belongsTo-bizagi_BizagiProperties_IC120">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC124-belongsTo-bizagi_BizagiProperties_IC120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC124-belongsTo-bizagi_BizagiProperties_IC120">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC125-belongsTo-bizagi_BizagiProperties_IC120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC125-belongsTo-bizagi_BizagiProperties_IC120">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC13-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC13-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>bgColor</name>
+        <value>#E6FF97</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC133-belongsTo-bizagi_BizagiProperties_IC132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC133-belongsTo-bizagi_BizagiProperties_IC132">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC134-belongsTo-bizagi_BizagiProperties_IC132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC134-belongsTo-bizagi_BizagiProperties_IC132">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC135-belongsTo-bizagi_BizagiProperties_IC132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC135-belongsTo-bizagi_BizagiProperties_IC132">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC136-belongsTo-bizagi_BizagiProperties_IC132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC136-belongsTo-bizagi_BizagiProperties_IC132">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC137-belongsTo-bizagi_BizagiProperties_IC132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC137-belongsTo-bizagi_BizagiProperties_IC132">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC14-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC14-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>borderColor</name>
+        <value>#62A716</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC143-belongsTo-bizagi_BizagiProperties_IC142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC143-belongsTo-bizagi_BizagiProperties_IC142">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC144-belongsTo-bizagi_BizagiProperties_IC142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC144-belongsTo-bizagi_BizagiProperties_IC142">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC145-belongsTo-bizagi_BizagiProperties_IC142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC145-belongsTo-bizagi_BizagiProperties_IC142">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC146-belongsTo-bizagi_BizagiProperties_IC142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC146-belongsTo-bizagi_BizagiProperties_IC142">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC147-belongsTo-bizagi_BizagiProperties_IC142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC147-belongsTo-bizagi_BizagiProperties_IC142">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC15-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC15-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC153-belongsTo-bizagi_BizagiProperties_IC152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC153-belongsTo-bizagi_BizagiProperties_IC152">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC154-belongsTo-bizagi_BizagiProperties_IC152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC154-belongsTo-bizagi_BizagiProperties_IC152">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC155-belongsTo-bizagi_BizagiProperties_IC152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC155-belongsTo-bizagi_BizagiProperties_IC152">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC156-belongsTo-bizagi_BizagiProperties_IC152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC156-belongsTo-bizagi_BizagiProperties_IC152">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC157-belongsTo-bizagi_BizagiProperties_IC152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC157-belongsTo-bizagi_BizagiProperties_IC152">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC16-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC16-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC162-belongsTo-bizagi_BizagiProperties_IC161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC162-belongsTo-bizagi_BizagiProperties_IC161">
+        <name>bgColor</name>
+        <value>#FFFFCC</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC163-belongsTo-bizagi_BizagiProperties_IC161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC163-belongsTo-bizagi_BizagiProperties_IC161">
+        <name>borderColor</name>
+        <value>#A6A61D</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC164-belongsTo-bizagi_BizagiProperties_IC161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC164-belongsTo-bizagi_BizagiProperties_IC161">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC165-belongsTo-bizagi_BizagiProperties_IC161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC165-belongsTo-bizagi_BizagiProperties_IC161">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC166-belongsTo-bizagi_BizagiProperties_IC161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC166-belongsTo-bizagi_BizagiProperties_IC161">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC17-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC17-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC175-belongsTo-bizagi_BizagiProperties_IC174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC175-belongsTo-bizagi_BizagiProperties_IC174">
+        <name>bgColor</name>
+        <value>#ECEFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC176-belongsTo-bizagi_BizagiProperties_IC174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC176-belongsTo-bizagi_BizagiProperties_IC174">
+        <name>borderColor</name>
+        <value>#03689A</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC177-belongsTo-bizagi_BizagiProperties_IC174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC177-belongsTo-bizagi_BizagiProperties_IC174">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC178-belongsTo-bizagi_BizagiProperties_IC174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC178-belongsTo-bizagi_BizagiProperties_IC174">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC179-belongsTo-bizagi_BizagiProperties_IC174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC179-belongsTo-bizagi_BizagiProperties_IC174">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC18-belongsTo-bizagi_BizagiProperties_IC12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC18-belongsTo-bizagi_BizagiProperties_IC12">
+        <name>runtimeProperties</name>
+        <value>{}</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC185-belongsTo-bizagi_BizagiProperties_IC184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC185-belongsTo-bizagi_BizagiProperties_IC184">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC186-belongsTo-bizagi_BizagiProperties_IC184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC186-belongsTo-bizagi_BizagiProperties_IC184">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC187-belongsTo-bizagi_BizagiProperties_IC184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC187-belongsTo-bizagi_BizagiProperties_IC184">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC188-belongsTo-bizagi_BizagiProperties_IC184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC188-belongsTo-bizagi_BizagiProperties_IC184">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC189-belongsTo-bizagi_BizagiProperties_IC184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC189-belongsTo-bizagi_BizagiProperties_IC184">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC195-belongsTo-bizagi_BizagiProperties_IC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC195-belongsTo-bizagi_BizagiProperties_IC194">
+        <name>bgColor</name>
+        <value>#ECEFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC196-belongsTo-bizagi_BizagiProperties_IC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC196-belongsTo-bizagi_BizagiProperties_IC194">
+        <name>borderColor</name>
+        <value>#03689A</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC197-belongsTo-bizagi_BizagiProperties_IC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC197-belongsTo-bizagi_BizagiProperties_IC194">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC198-belongsTo-bizagi_BizagiProperties_IC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC198-belongsTo-bizagi_BizagiProperties_IC194">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC199-belongsTo-bizagi_BizagiProperties_IC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC199-belongsTo-bizagi_BizagiProperties_IC194">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC206-belongsTo-bizagi_BizagiProperties_IC205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC206-belongsTo-bizagi_BizagiProperties_IC205">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC207-belongsTo-bizagi_BizagiProperties_IC205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC207-belongsTo-bizagi_BizagiProperties_IC205">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC208-belongsTo-bizagi_BizagiProperties_IC205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC208-belongsTo-bizagi_BizagiProperties_IC205">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC209-belongsTo-bizagi_BizagiProperties_IC205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC209-belongsTo-bizagi_BizagiProperties_IC205">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC210-belongsTo-bizagi_BizagiProperties_IC205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC210-belongsTo-bizagi_BizagiProperties_IC205">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC216-belongsTo-bizagi_BizagiProperties_IC215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC216-belongsTo-bizagi_BizagiProperties_IC215">
+        <name>bgColor</name>
+        <value>#FFFFCC</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC217-belongsTo-bizagi_BizagiProperties_IC215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC217-belongsTo-bizagi_BizagiProperties_IC215">
+        <name>borderColor</name>
+        <value>#A6A61D</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC218-belongsTo-bizagi_BizagiProperties_IC215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC218-belongsTo-bizagi_BizagiProperties_IC215">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC219-belongsTo-bizagi_BizagiProperties_IC215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC219-belongsTo-bizagi_BizagiProperties_IC215">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC220-belongsTo-bizagi_BizagiProperties_IC215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC220-belongsTo-bizagi_BizagiProperties_IC215">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC228-belongsTo-bizagi_BizagiProperties_IC227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC228-belongsTo-bizagi_BizagiProperties_IC227">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC229-belongsTo-bizagi_BizagiProperties_IC227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC229-belongsTo-bizagi_BizagiProperties_IC227">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC230-belongsTo-bizagi_BizagiProperties_IC227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC230-belongsTo-bizagi_BizagiProperties_IC227">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC231-belongsTo-bizagi_BizagiProperties_IC227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC231-belongsTo-bizagi_BizagiProperties_IC227">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC232-belongsTo-bizagi_BizagiProperties_IC227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC232-belongsTo-bizagi_BizagiProperties_IC227">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC238-belongsTo-bizagi_BizagiProperties_IC237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC238-belongsTo-bizagi_BizagiProperties_IC237">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC239-belongsTo-bizagi_BizagiProperties_IC237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC239-belongsTo-bizagi_BizagiProperties_IC237">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC240-belongsTo-bizagi_BizagiProperties_IC237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC240-belongsTo-bizagi_BizagiProperties_IC237">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC241-belongsTo-bizagi_BizagiProperties_IC237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC241-belongsTo-bizagi_BizagiProperties_IC237">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC242-belongsTo-bizagi_BizagiProperties_IC237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC242-belongsTo-bizagi_BizagiProperties_IC237">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC247-belongsTo-bizagi_BizagiProperties_IC246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC247-belongsTo-bizagi_BizagiProperties_IC246">
+        <name>bgColor</name>
+        <value>#EEAAAA</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC248-belongsTo-bizagi_BizagiProperties_IC246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC248-belongsTo-bizagi_BizagiProperties_IC246">
+        <name>borderColor</name>
+        <value>#990000</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC249-belongsTo-bizagi_BizagiProperties_IC246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC249-belongsTo-bizagi_BizagiProperties_IC246">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC25-belongsTo-bizagi_BizagiProperties_IC24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC25-belongsTo-bizagi_BizagiProperties_IC24">
+        <name>bgColor</name>
+        <value>#ECEFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC250-belongsTo-bizagi_BizagiProperties_IC246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC250-belongsTo-bizagi_BizagiProperties_IC246">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC251-belongsTo-bizagi_BizagiProperties_IC246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC251-belongsTo-bizagi_BizagiProperties_IC246">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC258-belongsTo-bizagi_BizagiProperties_IC257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC258-belongsTo-bizagi_BizagiProperties_IC257">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC259-belongsTo-bizagi_BizagiProperties_IC257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC259-belongsTo-bizagi_BizagiProperties_IC257">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC26-belongsTo-bizagi_BizagiProperties_IC24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC26-belongsTo-bizagi_BizagiProperties_IC24">
+        <name>borderColor</name>
+        <value>#03689A</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC260-belongsTo-bizagi_BizagiProperties_IC257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC260-belongsTo-bizagi_BizagiProperties_IC257">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC261-belongsTo-bizagi_BizagiProperties_IC257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC261-belongsTo-bizagi_BizagiProperties_IC257">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC262-belongsTo-bizagi_BizagiProperties_IC257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC262-belongsTo-bizagi_BizagiProperties_IC257">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC27-belongsTo-bizagi_BizagiProperties_IC24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC27-belongsTo-bizagi_BizagiProperties_IC24">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC270-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC270-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>bgColor</name>
+        <value>#FFFFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC271-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC271-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>borderColor</name>
+        <value>#000000</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC272-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC272-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>textColor</name>
+        <value>#000000</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC273-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC273-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>textBackgroundColor</name>
+        <value>#FFFFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC274-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC274-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC275-belongsTo-bizagi_BizagiProperties_IC269 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC275-belongsTo-bizagi_BizagiProperties_IC269">
+        <name>isMainParticipant</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC28-belongsTo-bizagi_BizagiProperties_IC24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC28-belongsTo-bizagi_BizagiProperties_IC24">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC280-belongsTo-bizagi_BizagiProperties_IC279 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC280-belongsTo-bizagi_BizagiProperties_IC279">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC281-belongsTo-bizagi_BizagiProperties_IC279 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC281-belongsTo-bizagi_BizagiProperties_IC279">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC282-belongsTo-bizagi_BizagiProperties_IC279 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC282-belongsTo-bizagi_BizagiProperties_IC279">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC283-belongsTo-bizagi_BizagiProperties_IC279 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC283-belongsTo-bizagi_BizagiProperties_IC279">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC284-belongsTo-bizagi_BizagiProperties_IC279 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC284-belongsTo-bizagi_BizagiProperties_IC279">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC29-belongsTo-bizagi_BizagiProperties_IC24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC29-belongsTo-bizagi_BizagiProperties_IC24">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC36-belongsTo-bizagi_BizagiProperties_IC35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC36-belongsTo-bizagi_BizagiProperties_IC35">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC37-belongsTo-bizagi_BizagiProperties_IC35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC37-belongsTo-bizagi_BizagiProperties_IC35">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC38-belongsTo-bizagi_BizagiProperties_IC35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC38-belongsTo-bizagi_BizagiProperties_IC35">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC39-belongsTo-bizagi_BizagiProperties_IC35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC39-belongsTo-bizagi_BizagiProperties_IC35">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC40-belongsTo-bizagi_BizagiProperties_IC35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC40-belongsTo-bizagi_BizagiProperties_IC35">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC45-belongsTo-bizagi_BizagiProperties_IC44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC45-belongsTo-bizagi_BizagiProperties_IC44">
+        <name>bgColor</name>
+        <value>#F0F0F0</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC46-belongsTo-bizagi_BizagiProperties_IC44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC46-belongsTo-bizagi_BizagiProperties_IC44">
+        <name>borderColor</name>
+        <value>#666666</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC47-belongsTo-bizagi_BizagiProperties_IC44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC47-belongsTo-bizagi_BizagiProperties_IC44">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC48-belongsTo-bizagi_BizagiProperties_IC44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC48-belongsTo-bizagi_BizagiProperties_IC44">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC49-belongsTo-bizagi_BizagiProperties_IC44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC49-belongsTo-bizagi_BizagiProperties_IC44">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC55-belongsTo-bizagi_BizagiProperties_IC54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC55-belongsTo-bizagi_BizagiProperties_IC54">
+        <name>bgColor</name>
+        <value>#FFFFCC</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC56-belongsTo-bizagi_BizagiProperties_IC54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC56-belongsTo-bizagi_BizagiProperties_IC54">
+        <name>borderColor</name>
+        <value>#A6A61D</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC57-belongsTo-bizagi_BizagiProperties_IC54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC57-belongsTo-bizagi_BizagiProperties_IC54">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC58-belongsTo-bizagi_BizagiProperties_IC54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC58-belongsTo-bizagi_BizagiProperties_IC54">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC59-belongsTo-bizagi_BizagiProperties_IC54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC59-belongsTo-bizagi_BizagiProperties_IC54">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC67-belongsTo-bizagi_BizagiProperties_IC66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC67-belongsTo-bizagi_BizagiProperties_IC66">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC68-belongsTo-bizagi_BizagiProperties_IC66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC68-belongsTo-bizagi_BizagiProperties_IC66">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC69-belongsTo-bizagi_BizagiProperties_IC66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC69-belongsTo-bizagi_BizagiProperties_IC66">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC70-belongsTo-bizagi_BizagiProperties_IC66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC70-belongsTo-bizagi_BizagiProperties_IC66">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC71-belongsTo-bizagi_BizagiProperties_IC66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC71-belongsTo-bizagi_BizagiProperties_IC66">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC77-belongsTo-bizagi_BizagiProperties_IC76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC77-belongsTo-bizagi_BizagiProperties_IC76">
+        <name>bgColor</name>
+        <value>#EEAAAA</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC78-belongsTo-bizagi_BizagiProperties_IC76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC78-belongsTo-bizagi_BizagiProperties_IC76">
+        <name>borderColor</name>
+        <value>#990000</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC79-belongsTo-bizagi_BizagiProperties_IC76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC79-belongsTo-bizagi_BizagiProperties_IC76">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC80-belongsTo-bizagi_BizagiProperties_IC76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC80-belongsTo-bizagi_BizagiProperties_IC76">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC81-belongsTo-bizagi_BizagiProperties_IC76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC81-belongsTo-bizagi_BizagiProperties_IC76">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC90-belongsTo-bizagi_BizagiProperties_IC89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC90-belongsTo-bizagi_BizagiProperties_IC89">
+        <name>bgColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC91-belongsTo-bizagi_BizagiProperties_IC89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC91-belongsTo-bizagi_BizagiProperties_IC89">
+        <name>borderColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC92-belongsTo-bizagi_BizagiProperties_IC89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC92-belongsTo-bizagi_BizagiProperties_IC89">
+        <name>textColor</name>
+        <value>Black</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC93-belongsTo-bizagi_BizagiProperties_IC89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC93-belongsTo-bizagi_BizagiProperties_IC89">
+        <name>textBackgroundColor</name>
+        <value>White</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC94-belongsTo-bizagi_BizagiProperties_IC89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC94-belongsTo-bizagi_BizagiProperties_IC89">
+        <name>textDirection</name>
+        <value></value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC99-belongsTo-bizagi_BizagiProperties_IC98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/bizagi_BizagiProperty_IC99-belongsTo-bizagi_BizagiProperties_IC98">
+        <name>bgColor</name>
+        <value>#ECEFFF</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/collaboration_IC263-belongsTo-definitions_IC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/collaboration_IC263-belongsTo-definitions_IC1">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#collaboration"/>
+        <id>Id_ad25f4e6-929a-4c0f-8bd2-2683c910eed6</id>
+        <name>Сценарій аналітики іноземних студентів</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/dataState_IC3-belongsTo-dataStore_IC2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/dataState_IC3-belongsTo-dataStore_IC2">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#dataState"/>
+        <id>Id_72b37eff-10ff-4341-80f3-32cb163d3c7e</id>
+        <name></name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/dataStoreReference_IC41-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/dataStoreReference_IC41-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#dataStoreReference"/>
+        <dataStoreRef>Id_0f2319fe-025f-4a27-a430-48b0bcde04de</dataStoreRef>
+        <id>Id_a7058c50-1b2b-4f31-8951-0bc726432c40</id>
+        <name>База даних кафедри</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/dataStore_IC2-belongsTo-definitions_IC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/dataStore_IC2-belongsTo-definitions_IC1">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#dataStore"/>
+        <id>Id_0f2319fe-025f-4a27-a430-48b0bcde04de</id>
+        <name>База даних кафедри</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/definitions_IC1-belongsTo-document_IC0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/definitions_IC1-belongsTo-document_IC0">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#definitions"/>
+        <ResolveNamingIssuexmlnsxsd>http://www.w3.org/2001/XMLSchema</ResolveNamingIssuexmlnsxsd>
+        <ResolveNamingIssuexmlnsxsi>http://www.w3.org/2001/XMLSchema-instance</ResolveNamingIssuexmlnsxsi>
+        <id>_2023051900893</id>
+        <targetNamespace>http://www.bizagi.com/definitions/_2023051900893</targetNamespace>
+        <xmlns>http://www.omg.org/spec/BPMN/20100524/MODEL</xmlns>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC107-belongsTo-sequenceFlow_IC106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC107-belongsTo-sequenceFlow_IC106">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC117-belongsTo-exclusiveGateway_IC116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC117-belongsTo-exclusiveGateway_IC116">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC139-belongsTo-sequenceFlow_IC138 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC139-belongsTo-sequenceFlow_IC138">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC149-belongsTo-sequenceFlow_IC148 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC149-belongsTo-sequenceFlow_IC148">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC171-belongsTo-task_IC170 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC171-belongsTo-task_IC170">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC191-belongsTo-task_IC190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC191-belongsTo-task_IC190">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC21-belongsTo-task_IC20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC21-belongsTo-task_IC20">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC212-belongsTo-exclusiveGateway_IC211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC212-belongsTo-exclusiveGateway_IC211">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC234-belongsTo-sequenceFlow_IC233 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC234-belongsTo-sequenceFlow_IC233">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC254-belongsTo-sequenceFlow_IC253 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC254-belongsTo-sequenceFlow_IC253">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC264-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC264-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC266-belongsTo-participant_IC265 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC266-belongsTo-participant_IC265">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC286-belongsTo-messageFlow_IC285 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC286-belongsTo-messageFlow_IC285">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC288-belongsTo-messageFlow_IC287 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC288-belongsTo-messageFlow_IC287">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC290-belongsTo-messageFlow_IC289 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC290-belongsTo-messageFlow_IC289">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC5-belongsTo-process_IC4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC5-belongsTo-process_IC4">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC51-belongsTo-exclusiveGateway_IC50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC51-belongsTo-exclusiveGateway_IC50">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC73-belongsTo-endEvent_IC72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC73-belongsTo-endEvent_IC72">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC8-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC8-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/documentation_IC86-belongsTo-sequenceFlow_IC85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/documentation_IC86-belongsTo-sequenceFlow_IC85">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/endEvent_IC243-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/endEvent_IC243-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#endEvent"/>
+        <id>Id_72a30657-be43-47de-bf85-59369272cfe0</id>
+        <name>Кафедра обладнана за міжнародними стандартами</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/endEvent_IC72-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/endEvent_IC72-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#endEvent"/>
+        <id>Id_57aef314-2031-4815-a129-67f807c0f629</id>
+        <name>Кафедра не відповідає міжнародним стандартам</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/exclusiveGateway_IC116-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/exclusiveGateway_IC116-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <gatewayDirection>Diverging</gatewayDirection>
+        <id>Id_b40d68f8-b6b8-4630-a126-d223f10787cc</id>
+        <name></name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/exclusiveGateway_IC211-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/exclusiveGateway_IC211-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <gatewayDirection>Diverging</gatewayDirection>
+        <id>Id_8bf7e0d1-91e3-45f5-b68d-433688a72d6c</id>
+        <name></name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/exclusiveGateway_IC50-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/exclusiveGateway_IC50-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#exclusiveGateway"/>
+        <gatewayDirection>Diverging</gatewayDirection>
+        <id>Id_5837e51b-95fc-44e7-8ba0-9b4556c6a6a4</id>
+        <name></name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC104-belongsTo-task_IC95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC104-belongsTo-task_IC95">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_319b82e4-420d-462a-8625-e366003447f0</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC126-belongsTo-exclusiveGateway_IC116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC126-belongsTo-exclusiveGateway_IC116">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_ddd19f55-b34b-4cbd-b774-d5d4cb9a7233</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC167-belongsTo-parallelGateway_IC158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC167-belongsTo-parallelGateway_IC158">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_142905d7-c5b9-40a3-834e-f9cf74057f89</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC180-belongsTo-task_IC170 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC180-belongsTo-task_IC170">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_91d4c273-2f63-466f-bd81-512ed53c1674</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC200-belongsTo-task_IC190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC200-belongsTo-task_IC190">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_49651586-9e2f-4f80-b5e3-fcbc611040f5</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC221-belongsTo-exclusiveGateway_IC211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC221-belongsTo-exclusiveGateway_IC211">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_3c1f3721-faee-47e8-be10-74014dcf37cd</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC252-belongsTo-endEvent_IC243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC252-belongsTo-endEvent_IC243">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_8bc26623-89eb-4ecd-ba73-f49788a3b41c</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC30-belongsTo-task_IC20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC30-belongsTo-task_IC20">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_545b00f7-fa5f-4962-9c0a-9e91915a7270</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC60-belongsTo-exclusiveGateway_IC50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC60-belongsTo-exclusiveGateway_IC50">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_95109d88-1e34-4710-8761-024887ef90b2</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC82-belongsTo-endEvent_IC72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC82-belongsTo-endEvent_IC72">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_13d1390f-95c6-420d-addf-06710802b496</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC83-belongsTo-endEvent_IC72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC83-belongsTo-endEvent_IC72">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_cdc5eaa0-026a-457d-97c9-5a86a1b7a3b7</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/incoming_IC84-belongsTo-endEvent_IC72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/incoming_IC84-belongsTo-endEvent_IC72">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#incoming"/>
+        <textValue>Id_421bb2b8-2afb-4399-9388-52853c04d63b</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/laneSet_IC6-belongsTo-process_IC4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/laneSet_IC6-belongsTo-process_IC4">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#laneSet"/>
+        <id>Id_7ede0b3b-6a0c-4852-bc92-8fdd5b2684df</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/messageFlow_IC285-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/messageFlow_IC285-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#messageFlow"/>
+        <id>Id_b5747a36-3f29-4dd1-905d-895e951811a9</id>
+        <name>Кількість підручників для іноземців</name>
+        <targetRef>Id_727ce780-abbf-43cf-9d5a-bc0877f48a9f</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/messageFlow_IC287-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/messageFlow_IC287-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#messageFlow"/>
+        <id>Id_2e0eac7c-712c-4feb-b570-396153fc7f0f</id>
+        <name>Кількість закордоних студентів</name>
+        <targetRef>Id_c51c1269-163c-43e2-9479-5ec655f8ef64</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/messageFlow_IC289-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/messageFlow_IC289-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#messageFlow"/>
+        <id>Id_9b50c07c-f10b-4ce3-ac25-a3a039967b19</id>
+        <name>Оцінка студентами</name>
+        <sourceRef>Id_521a1429-8e97-4344-bce8-a12ee476dd3b</sourceRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC105-belongsTo-task_IC95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC105-belongsTo-task_IC95">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_ddd19f55-b34b-4cbd-b774-d5d4cb9a7233</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC127-belongsTo-exclusiveGateway_IC116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC127-belongsTo-exclusiveGateway_IC116">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_142905d7-c5b9-40a3-834e-f9cf74057f89</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC128-belongsTo-exclusiveGateway_IC116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC128-belongsTo-exclusiveGateway_IC116">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_cdc5eaa0-026a-457d-97c9-5a86a1b7a3b7</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC168-belongsTo-parallelGateway_IC158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC168-belongsTo-parallelGateway_IC158">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_49651586-9e2f-4f80-b5e3-fcbc611040f5</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC169-belongsTo-parallelGateway_IC158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC169-belongsTo-parallelGateway_IC158">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_91d4c273-2f63-466f-bd81-512ed53c1674</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC19-belongsTo-startEvent_IC9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC19-belongsTo-startEvent_IC9">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_545b00f7-fa5f-4962-9c0a-9e91915a7270</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC201-belongsTo-task_IC190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC201-belongsTo-task_IC190">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_3c1f3721-faee-47e8-be10-74014dcf37cd</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC222-belongsTo-exclusiveGateway_IC211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC222-belongsTo-exclusiveGateway_IC211">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_8bc26623-89eb-4ecd-ba73-f49788a3b41c</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC223-belongsTo-exclusiveGateway_IC211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC223-belongsTo-exclusiveGateway_IC211">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_13d1390f-95c6-420d-addf-06710802b496</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC31-belongsTo-task_IC20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC31-belongsTo-task_IC20">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_95109d88-1e34-4710-8761-024887ef90b2</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC61-belongsTo-exclusiveGateway_IC50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC61-belongsTo-exclusiveGateway_IC50">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_319b82e4-420d-462a-8625-e366003447f0</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/outgoing_IC62-belongsTo-exclusiveGateway_IC50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/outgoing_IC62-belongsTo-exclusiveGateway_IC50">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#outgoing"/>
+        <textValue>Id_421bb2b8-2afb-4399-9388-52853c04d63b</textValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/parallelGateway_IC158-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/parallelGateway_IC158-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#parallelGateway"/>
+        <gatewayDirection>Diverging</gatewayDirection>
+        <id>Id_de2042a7-2311-4480-8c81-ee60bd749017</id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/participant_IC265-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/participant_IC265-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#participant"/>
+        <id>Id_0a829e91-60c5-4d08-a184-4e6f81ffe9d1</id>
+        <name>Main Process</name>
+        <processRef>Id_a59c0c44-8b6f-4586-95a6-8e66c38f8e34</processRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/participant_IC276-belongsTo-collaboration_IC263 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/participant_IC276-belongsTo-collaboration_IC263">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#participant"/>
+        <id>Id_f9d79024-0bfc-45d9-871f-e38195230320</id>
+        <name>Аналітик міжнародної освітньої діяльності</name>
+        <processRef>Id_5f265a9a-2749-4f74-bcbf-b1df83d1d21a</processRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/process_IC4-belongsTo-definitions_IC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/process_IC4-belongsTo-definitions_IC1">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <id>Id_a59c0c44-8b6f-4586-95a6-8e66c38f8e34</id>
+        <name>Main Process</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/process_IC7-belongsTo-definitions_IC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/process_IC7-belongsTo-definitions_IC1">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#process"/>
+        <id>Id_5f265a9a-2749-4f74-bcbf-b1df83d1d21a</id>
+        <name>Аналітик міжнародної освітньої діяльності</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC106-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC106-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_319b82e4-420d-462a-8625-e366003447f0</id>
+        <name>В наявності є певна кількість посібників</name>
+        <sourceRef>Id_5837e51b-95fc-44e7-8ba0-9b4556c6a6a4</sourceRef>
+        <targetRef>Id_c51c1269-163c-43e2-9479-5ec655f8ef64</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC129-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC129-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_ddd19f55-b34b-4cbd-b774-d5d4cb9a7233</id>
+        <sourceRef>Id_c51c1269-163c-43e2-9479-5ec655f8ef64</sourceRef>
+        <targetRef>Id_b40d68f8-b6b8-4630-a126-d223f10787cc</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC138-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC138-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_cdc5eaa0-026a-457d-97c9-5a86a1b7a3b7</id>
+        <name>Кількість посібників недостатня</name>
+        <sourceRef>Id_b40d68f8-b6b8-4630-a126-d223f10787cc</sourceRef>
+        <targetRef>Id_57aef314-2031-4815-a129-67f807c0f629</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC148-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC148-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_142905d7-c5b9-40a3-834e-f9cf74057f89</id>
+        <name>Посібників достатньо</name>
+        <sourceRef>Id_b40d68f8-b6b8-4630-a126-d223f10787cc</sourceRef>
+        <targetRef>Id_de2042a7-2311-4480-8c81-ee60bd749017</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC181-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC181-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_91d4c273-2f63-466f-bd81-512ed53c1674</id>
+        <sourceRef>Id_de2042a7-2311-4480-8c81-ee60bd749017</sourceRef>
+        <targetRef>Id_521a1429-8e97-4344-bce8-a12ee476dd3b</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC202-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC202-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_49651586-9e2f-4f80-b5e3-fcbc611040f5</id>
+        <sourceRef>Id_de2042a7-2311-4480-8c81-ee60bd749017</sourceRef>
+        <targetRef>Id_c9386052-ef56-468e-b9dc-73d36b6c5771</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC224-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC224-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_3c1f3721-faee-47e8-be10-74014dcf37cd</id>
+        <sourceRef>Id_c9386052-ef56-468e-b9dc-73d36b6c5771</sourceRef>
+        <targetRef>Id_8bf7e0d1-91e3-45f5-b68d-433688a72d6c</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC233-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC233-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_13d1390f-95c6-420d-addf-06710802b496</id>
+        <name>Більшість студентів не задовільняє процес навчання</name>
+        <sourceRef>Id_8bf7e0d1-91e3-45f5-b68d-433688a72d6c</sourceRef>
+        <targetRef>Id_57aef314-2031-4815-a129-67f807c0f629</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC253-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC253-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_8bc26623-89eb-4ecd-ba73-f49788a3b41c</id>
+        <name>Більшість студентів влаштовує якість навчання</name>
+        <sourceRef>Id_8bf7e0d1-91e3-45f5-b68d-433688a72d6c</sourceRef>
+        <targetRef>Id_72a30657-be43-47de-bf85-59369272cfe0</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC32-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC32-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_545b00f7-fa5f-4962-9c0a-9e91915a7270</id>
+        <sourceRef>Id_d26639b6-4581-4e2b-80d1-fe6743e528dc</sourceRef>
+        <targetRef>Id_727ce780-abbf-43cf-9d5a-bc0877f48a9f</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC63-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC63-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_95109d88-1e34-4710-8761-024887ef90b2</id>
+        <sourceRef>Id_727ce780-abbf-43cf-9d5a-bc0877f48a9f</sourceRef>
+        <targetRef>Id_5837e51b-95fc-44e7-8ba0-9b4556c6a6a4</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/sequenceFlow_IC85-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/sequenceFlow_IC85-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#sequenceFlow"/>
+        <id>Id_421bb2b8-2afb-4399-9388-52853c04d63b</id>
+        <name>Посібників немає або вони застарілі</name>
+        <sourceRef>Id_5837e51b-95fc-44e7-8ba0-9b4556c6a6a4</sourceRef>
+        <targetRef>Id_57aef314-2031-4815-a129-67f807c0f629</targetRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/startEvent_IC9-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/startEvent_IC9-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#startEvent"/>
+        <id>Id_d26639b6-4581-4e2b-80d1-fe6743e528dc</id>
+        <name>Запит на аналіз</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/task_IC170-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/task_IC170-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+        <id>Id_521a1429-8e97-4344-bce8-a12ee476dd3b</id>
+        <name>Опитування студентів</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/task_IC190-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/task_IC190-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+        <id>Id_c9386052-ef56-468e-b9dc-73d36b6c5771</id>
+        <name>Оцінка рівня задоволеності студентів навчальним процесом</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/task_IC20-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/task_IC20-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+        <id>Id_727ce780-abbf-43cf-9d5a-bc0877f48a9f</id>
+        <name>Оцінка наявності методичних матеріалів для іноземних студентів</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.reiter.at/ontology/generated/task_IC95-belongsTo-process_IC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.reiter.at/ontology/generated/task_IC95-belongsTo-process_IC7">
+        <rdf:type rdf:resource="http://www.reiter.at/ontology/generated#task"/>
+        <id>Id_c51c1269-163c-43e2-9479-5ec655f8ef64</id>
+        <name>Оцінка кількості іноземних студентів і їх забезпеченості методичним матеріалом</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

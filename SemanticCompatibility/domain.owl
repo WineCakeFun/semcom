@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#"
+     xml:base="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#заснований -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#заснований">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#країна -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#країна">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країни_та_організації_стажування"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_студентів_в_конференціях_країни"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_аспірантів_і_докторантів_із_країни"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_участі_студентів_в_програмі"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#наукової_ступені -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#наукової_ступені">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців-учасників_ступеню"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_викладачів"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наукова_ступінь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#подія -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#подія">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_співробітників_що_взяли_участь_у_події"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#проект -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#проект">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_робіт_іноземних_учасників_проекту"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_міжнародній_науково-технічній_програмі"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_програмі"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#спеціальність -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#спеціальність">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_посібників_для_іноземців"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іншомовних_студентів_за_спеціальністю"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Навантаження_іноземних_викладачів"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Приплив_іноземних_студентів"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#значення -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#значення">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#коментар -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#коментар">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Вартість_придбаних_цінностей"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Навантаження_іноземних_викладачів"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_благодійної_допомоги"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_міжнародній_науково-технічній_програмі"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_програмі"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#кількість_учасників -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#кількість_учасників">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_робіт_іноземних_учасників_проекту"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#назва -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#назва">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наука"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#рік -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#рік">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Вартість_придбаних_цінностей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Вартість_придбаних_цінностей">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_придбання_матеріально-технічних_цінностей_за_кордоном"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Всеукраїнський -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Всеукраїнський">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Україна"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Закордонний"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Міжнародний"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Загальна_кількість_публікацій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Загальна_кількість_публікацій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_публікацій_в_зарубіжних_наукових_журналах_і_тематичних_збірниках"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Закордонний -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Закордонний">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Україна"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Міжнародний"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Зустріч -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Зустріч">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кафедра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кафедра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Конференція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Конференція">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країни_та_організації_стажування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країни_та_організації_стажування">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_стажування_своїх_спеціалістів_за_кордоном"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_завершених_міжнародних_контрактів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_завершених_міжнародних_контрактів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_контрактів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_захищених_дисертацій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_захищених_дисертацій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_аспірантів_і_докторантів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_країн-учасниць -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_країн-учасниць">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_країн-учасниць_і_підприємств-учасників -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_країн-учасниць_і_підприємств-учасників">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_нагород -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_нагород">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_нагород"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_науково-технічних_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_науково-технічних_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_науково-технічних_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_освітніх_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_міжнародних_освітніх_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_організованих_подій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_організованих_подій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_наукових_подій"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_отриманих_патентів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_отриманих_патентів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_реєстрації_зарубіжних_патентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_посібників_для_іноземців -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_посібників_для_іноземців">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_предметів_що_викладають_іноземні_викладачі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_предметів_що_викладають_іноземні_викладачі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іноземних_викладачів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_публікацій_в_кваліфікованих_виданнях -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_публікацій_в_кваліфікованих_виданнях">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_публікацій_в_зарубіжних_наукових_журналах_і_тематичних_збірниках"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_публікацій_у_співавторстві_з_зарубіжними_вченими -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_публікацій_у_співавторстві_з_зарубіжними_вченими">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_наукових_співробітників"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_робіт_іноземних_учасників_проекту -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_робіт_іноземних_учасників_проекту">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_наукових_співробітників"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_розробок_на_реєстрацію -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_розробок_на_реєстрацію">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_реєстрації_зарубіжних_патентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_співробітників_що_взяли_участь_у_події -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_співробітників_що_взяли_участь_у_події">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_наукових_подій"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_спільних_міжнародних_розробок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_спільних_міжнародних_розробок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_спільних_інженерно-технічних_розробок"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_студентів_в_конференціях_країни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_студентів_в_конференціях_країни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_студентських_конференцій"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_студентів_в_міжнародних_студентських_конференціях -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_студентів_в_міжнародних_студентських_конференціях">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_студентських_конференцій"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців-учасників_ступеню -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців-учасників_ступеню">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців_в_програмах -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців_в_програмах">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців_стажерів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_фахівців_стажерів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_стажування_своїх_спеціалістів_за_кордоном"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_індивідуальних_грантів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_індивідуальних_грантів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_грантів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_аспірантів_і_докторантів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_аспірантів_і_докторантів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_аспірантів_і_докторантів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_аспірантів_і_докторантів_із_країни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_аспірантів_і_докторантів_із_країни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_аспірантів_і_докторантів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_викладачів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_викладачів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іноземних_викладачів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_вчених_що_працюють_в_організації -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_вчених_що_працюють_в_організації">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_наукових_співробітників"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_студентів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іноземних_студентів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іншомовних_студентів_за_спеціальністю -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Кількість_іншомовних_студентів_за_спеціальністю">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Лабораторія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Лабораторія">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Міжнародний -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Міжнародний">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#брати_участь"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Навантаження_іноземних_викладачів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Навантаження_іноземних_викладачів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іноземних_викладачів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наука -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наука"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наукова_ступінь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наукова_ступінь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_благодійної_допомоги -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_благодійної_допомоги">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_благодійної_допомоги"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_контрактів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_контрактів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_контрактів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_науково-технічних_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_науково-технічних_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_науково-технічних_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_освітніх_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_освітніх_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_розробок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Обсяг_фінансування_міжнародних_розробок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_спільних_інженерно-технічних_розробок"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Оцінка_студентами -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Оцінка_студентами">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_аспірантів_і_докторантів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_аспірантів_і_докторантів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_наукових_співробітників -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_Іноземних_наукових_співробітників">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_благодійної_допомоги -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_благодійної_допомоги">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_грантів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_грантів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_кафедри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_кафедри">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_контрактів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_контрактів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_нагород -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_нагород">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_наукових_подій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_наукових_подій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_науково-технічних_програм_і_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_науково-технічних_програм_і_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_студентських_конференцій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_студентських_конференцій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародної_програми">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_кафедри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_кафедри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_придбання_матеріально-технічних_цінностей_за_кордоном -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_придбання_матеріально-технічних_цінностей_за_кордоном">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_програм_обміну_студентами -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_програм_обміну_студентами">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_публікацій_в_зарубіжних_наукових_журналах_і_тематичних_збірниках -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_публікацій_в_зарубіжних_наукових_журналах_і_тематичних_збірниках">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_реєстрації_зарубіжних_патентів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_реєстрації_зарубіжних_патентів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_спільних_інженерно-технічних_розробок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_спільних_інженерно-технічних_розробок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_стажування_своїх_спеціалістів_за_кордоном -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_стажування_своїх_спеціалістів_за_кордоном">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_науково-технічного_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_участі_студентів_в_програмі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_участі_студентів_в_програмі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_програм_обміну_студентами"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іноземних_викладачів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іноземних_викладачів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_освітнього_напряму"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Приплив_іноземних_студентів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Приплив_іноземних_студентів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_іншомовних_студентів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Програма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Програма">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Симпозіум -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Симпозіум">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Подія"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Спеціальність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Спеціальність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Наука"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_міжнародній_науково-технічній_програмі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_міжнародній_науково-технічній_програмі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_науково-технічних_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_програмі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Статус_в_програмі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_освітніх_програм_і_проектів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Університет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Університет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Факультет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Факультет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Організація"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Число_укладених_міжнародних_контрактів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Число_укладених_міжнародних_контрактів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Показник_міжнародних_контрактів"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#ERAMUS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#ERAMUS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <брати_участь rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Україна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Бельгія -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Бельгія">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#ПРоект -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#ПРоект">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <брати_участь rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Бельгія"/>
+        <брати_участь rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Франція"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Україна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Україна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Франція -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Франція">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Країна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Study&amp;Travel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Study&amp;Travel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Проект"/>
+        <брати_участь rdf:resource="http://www.semanticweb.org/bohdanayurchecko/ontologies/2020/4/final_ontology#Франція"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+
+
