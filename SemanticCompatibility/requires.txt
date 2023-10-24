@@ -1,0 +1,4 @@
+toolz
+owlready2
+pyqt5
+pymongo
